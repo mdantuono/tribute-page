@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <link href="https://fonts.googleapis.com/css?family=Monda|Satisfy" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 
 <style>
-    h2 {
+    h3 {
         font-family: 'Monda', sans-serif;   
         }
     h1 {
@@ -15,7 +16,13 @@
     ul {
         font-family: 'Monda', sans-serif;
     }
-   
+    .image-padding {
+        padding: 50px;
+    }
+    .content {
+    max-width: 500px;
+    margin: auto;
+}
 </style>
 <head>
     <meta charset="UTF-8">
@@ -24,19 +31,22 @@
     <title>Tribute Page</title>
 </head>
 <body style="background-color:tan">
-  
-        <h2>My tribute to:</h2>
-        <h1 style="font-size:240%">Coffee</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG" alt="a small cup of coffee"><img>
-    
+  <div class="container-fluid">
+        <h3>My tribute to:</h3>
+        <h1 style="font-size:60px; text-align:center">Coffee</h1>
+        
+    <div class= "content" style= "text-align:center">
+        <img class="image-padding" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG" alt="a small cup of coffee"><img>
         <p>Coffee is the most essential thing to every morning.</p>
         <p>Benefits of coffee include:</p>
         <ul>
-            <li>Waking you up</li>
-            <li>Making you focused</li>
-            <li>Tasting good</li>
-            <li>Sometimes even relaxing you</li>
+            <li>Helping you wake up</li>
+            <li>Helps focus</li>
+            <li>Tastes good</li>
+            <li>Relaxes you</li>
         </ul>
         <p>Where is your favorite place for coffee? <a href=tellus.html>Tell us!</a></p>
+       </div>
+    </div>
 </body>
 </html>

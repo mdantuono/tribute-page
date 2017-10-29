@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <link href="https://fonts.googleapis.com/css?family=Monda|Satisfy" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 <style>
-    h2 {
-        font-family: 'Monda', sans-serif;   
-        }
+  
     h1 {
         font-family: 'Satisfy', cursive;
     }
@@ -14,6 +13,11 @@
     label {
         font-family:'Monda', sans-serif;
     }
+   
+    .content {
+    max-width: 500px;
+    margin: auto;
+    }
 </style>
 <head>
     <meta charset="UTF-8">
@@ -22,12 +26,19 @@
     <title>Tell us!</title>
 </head>
 <body style=background-color:tan>
-    <h1>Where do YOU get coffee?</h1>
+<div class="content container-fluid">
+    <h1 style= "text-align:center">Where do YOU get coffee?</h1>
+    <div class= "row">
     <form action="coffee-vote">
-        <label><input type="radio" name="starbucks-dunks"><img style="width:100px;height:100px" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Starbucks_Coffee_Logo.svg/1024px-Starbucks_Coffee_Logo.svg.png">Starbucks</label>
-        <label><input type="radio" name="starbucks-dunks"><img style="width:100px;height:100px" src="https://lh4.googleusercontent.com/-xcflgKpCBuk/AAAAAAAAAAI/AAAAAAAAO-g/qdOsjiDyk2Q/photo.jpg">Dunkin Donuts</label>
-         <label><input type="radio" name="starbucks-dunks">Other</label>
-        <button type="submit">Submit</button>
+        <div class="col-sm-4"><label><input type="radio" name="starbucks-dunks"><img style="img-responsive; width:100px;height:100px" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Starbucks_Coffee_Logo.svg/1024px-Starbucks_Coffee_Logo.svg.png">Starbucks</label></div>
+        <div class="col-sm-4"><label><input type="radio" name="starbucks-dunks"><img style="img-responsive; width:100px;height:100px" src="https://lh4.googleusercontent.com/-xcflgKpCBuk/AAAAAAAAAAI/AAAAAAAAO-g/qdOsjiDyk2Q/photo.jpg">Dunkin Donuts</label></div>
+        <div class="col-sm-4"><label><input type="radio" name="starbucks-dunks"><img style="img-responsive; width:100px;height:100px" src="https://d30y9cdsu7xlg0.cloudfront.net/png/45447-200.png">Other</label></div>
+    </div>
+    <div class="row">
+        <div class= "text-center"><button class="btn" type="submit">Submit</button></div>
+    </div>
     </form>
+    
+</div>
 </body>
 </html>
