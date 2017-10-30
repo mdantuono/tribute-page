@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>.Coffee.</title>
+    <style>
+        .absolute {
+            position: absolute;
+            top: 0; left: 0;
+        }
+        #bgimg {
+            width: 100vw;
+            z-index: -1;
+        }
+        .themecolor {
+            color:rgb(240, 210, 203);
+        }
+        h1 {
+            font-family: 'Lato', sans-serif;;
+        }
+        p {
+            font-family: 'Lato', sans-serif;;
+        }
+        .blackboarder {
+            border-style: solid;
+            border-width: 5px;
+        }
+        #ribbon {
+          display: inline-block;
+          font-size: 2em;
+          font-family: 'Arial',sans-serif;
+        }
+        #block {
+            position: relative;
+          margin-top: 40vh;
+          width: 100vw;
+          background-color: rgb(88, 46, 38);
+          height: 5vh; opacity: .8;
+        }
+        .content {
+            max-width: 500px;
+            margin: auto;
+        }
+        a {
+            color:rgb(240, 210, 203);
+        }
+        a:hover {
+            background-color:rgb(88, 46, 38);
+            color:black;
+        }
+        .element {
+	    text-shadow:
+		-1px -1px 0 #000,
+		2px -1px 0 #000,
+		-1px 2px 0 #000,
+		2px 1px 0 #000;
+        }
+        .roundcorners {
+        border-radius: 25px;
+        }
+    </style>
+</head>
+<body style="text-align:center; margin: 0;">
+    <img class="absolute" id="bgimg" src="https://wallpapercave.com/wp/Aww6cC4.jpg"></img>
+    <div class="blackboarder" style= "text-align:center; background-color: rgba(88, 46, 38, .7); width: 100%">
+        <h1 class= "themecolor element" style= "font-size: 5em; ">Coffee</h1>
+        <img class= "roundcorners" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/275px-A_small_cup_of_coffee.JPG" alt="a small cup of coffee"><img>
+        <p style= "font-size: 2em;">The <span class=themecolor>BEST</span> morning beverage.</p>
+    </div>
+    <div style= "text-align:center; font-size: 20px">
+        
+        <p>Coffee is an essential factor of every morning.</p>
+        <p>Benefits of coffee include:</p>
+        <ul class="content" style= "font-family:'Lato', sans-serif;">
+            <li>Helping you wake up</li>
+            <li>Helps focus</li>
+            <li>Tastes good</li>
+            <li>Relaxes you</li>
+        </ul>
+    </div>
+   
+    <div>
+        <p style="font-size: 20px">Click <a href="map.html">HERE</a> to see popular coffee shops around Providence!</p>
+        <p style="font-size: 20px; text-align:center">Where is your favorite place for coffee? <a href=tellus-2.html><button type="btn">Tell us!</button></a></p>
+    </div>
+    <div id="block">
+        <div class="text-align:center" id="ribbon">
+            <a href="https://www.dunkindonuts.com/en">Dunkin Donuts</a> | <a href="https://www.starbucks.com/">Starbucks</a> | <a href="http://marylous.com/">Marylou's</a>
+        </div>
+    </div>
+</body>
+</html>
