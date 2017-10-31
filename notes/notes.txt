@@ -1,0 +1,2 @@
+Change= fix the colors
+Add= add a footer to the page
