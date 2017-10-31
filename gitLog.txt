@@ -1,0 +1,29 @@
+commit e76932546a5d35f8acf2cb9fe07c3e65295d03d2
+Author: Michael DAntuono <mikeishere3@gmail.com>
+Date:   Tue Oct 31 17:24:20 2017 +0000
+
+    create Notes.txt
+
+commit 9064e85761d713303a6969d8fe2728b1016860dc
+Author: Michael DAntuono <mikeishere3@gmail.com>
+Date:   Tue Oct 31 17:16:45 2017 +0000
+
+    minor modification
+
+commit 7f11514c5e2db16f2879a55338f600172a80f3b8
+Author: Michael DAntuono <mikeishere3@gmail.com>
+Date:   Mon Oct 30 17:02:00 2017 +0000
+
+    third commit
+
+commit 40828164f7503a62853335028fa6b2e5fb0c7cd8
+Author: Michael DAntuono <mikeishere3@gmail.com>
+Date:   Sun Oct 29 14:55:49 2017 +0000
+
+    second commit
+
+commit 03f4914771f00f6f681243f19ec46d902e04a621
+Author: Michael DAntuono <mikeishere3@gmail.com>
+Date:   Thu Oct 26 16:09:56 2017 +0000
+
+    first commit

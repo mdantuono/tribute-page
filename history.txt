@@ -1,0 +1,85 @@
+    1  touch hi.html
+    2  c9 hi.html 
+    3  rem hi.html 
+    4  touch tellus.html
+    5  c9 tellus.html 
+    6  git commit -m "updated htlm"
+    7  git
+    8  git init 
+    9  git commit -m "updated html"
+   10  git add -A
+   11  git status
+   12  git push
+   13  git remote add origin git@github.com:mdantuono/tribute-page.git
+   14  git push -u origin master
+   15  rm -m .git 
+   16  rm --help
+   17  rm -m .git/
+   18  git rm -r .git
+   19  git rm -r .git/
+   20  rm -r .git/
+   21  rm -rf .git/
+   22  mkdir tribute
+   23  cd tribute/
+   24  git init
+   25  git status
+   26  git commit -A
+   27  git commit -m "first commit"
+   28  git add -A
+   29  git status
+   30  git commit -m "first commit"
+   31  git remote add origin git@github.com:mdantuono/tribute-page.git
+   32  git push -u origin master
+   33  git add -A
+   34  git commit -m "second commit"
+   35  git status
+   36  git push
+   37  git status
+   38  touch tribute-2.html
+   39  c9 tribute-2.html 
+   40  touch tellus-2.html
+   41  c9 tellus-2.html 
+   42  touch thanks.html
+   43  c9 thanks.html 
+   44  touch map.html
+   45  c9 map.html 
+   46  git status
+   47  git add -A
+   48  git commit -m "third commit"
+   49  git status
+   50  git push
+   51  git status
+   52  git add tribute-2.html 
+   53  git status
+   54  git commit -m "minor modification"
+   55  git help
+   56  branch myNotesBranch
+   57  git branch myNotesBranch
+   58  git status
+   59  mkdir notes
+   60  cd notes/
+   61  touch notes.txt
+   62  echo Change= fix the colors > notes.txt 
+   63  echo Add= add a footer to the page >> notes.txt 
+   64  cat notes.txt 
+   65  git add notes.txt 
+   66  git commit -m "create Notes.txt"
+   67  git status
+   68  git merge myNotesBranch master 
+   69  git status
+   70  git merge myNotesBranch master 
+   71  git push
+   72  git checkout master
+   73  ..
+   74  ls 
+   75  cd notes/
+   76  ls
+   77  git merge myNotesBranch 
+   78  ..
+   79  git merge myNotesBranch 
+   80  git push
+   81  git status
+   82  git checkout tribute-2.html
+   83  git status
+   84  git log > gitLog.txt
+   85  history > history.txt
